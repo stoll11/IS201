@@ -1,0 +1,161 @@
+<!--Taylor Stoll 12.18.21-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tableau Dashboard</title>
+    <link href="../styles/bootstyles.css" rel="stylesheet"/>  
+    
+</head>
+<body class="body">
+    <!--Navigation Bar-->
+    <!--expands and contracts horizontally as the page is resized-->
+    
+    <nav class="menu">
+        <div>
+           <div>
+                <ul class="menu">
+                    <li><a  href="../index.html" class="nav">Home</a></li>
+                    <li><a  href="../html/about.html" class="nav">About</a></li>
+                    <li><a  href="#" class="nav">Tableau</a></li>
+                </ul>
+          </div> 
+        </div>
+    </nav>
+    
+    </div>
+    <!--Tableau Dashboard-->
+    <h1 class="header bold">Tableau Dashboard</h1>
+    <!--The Map-->
+    <div class="description">
+        Profit across the United States listed per state and higher profit shown by the darker blue
+    </div>
+    <div class="cont">
+        <div class='tableauPlaceholder' id='viz1639783466211' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='How are profits faring in each of the 50 states? ' 
+                    src='KY&#47;KYN6WCKC6&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' /> 
+                <param name='path' value='shared&#47;KYN6WCKC6' /> 
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='KY&#47;KYN6WCKC6&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>           
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1639783466211');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+      </div>
+      
+    <!--another forecast-->
+    <div class="description">
+        This is the forecasted sales for the most profitable product category <a href="https://www.statista.com/statistics/197722/annual-office-supplies-and-stationery-store-sales-in-the-us-since-1992/" class="nav">(Office Supplies)</a> in California until November 2015
+    </div>
+    <div class="cont">
+        <div class='tableauPlaceholder' id='viz1639787885468' style='position: relative'>
+            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='productcategory_16397831767060&#47;Sheet5' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1639787885468');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+    </div> 
+    
+    <!--product cat-->
+    <div class="description">
+        This graph shows the profit earned per product category in California over time
+    </div>
+    <div class="cont">
+        <div class='tableauPlaceholder' id='viz1639788101409' style='position: relative'>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='forecast_16397834386980&#47;Sheet4' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1639788101409');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+    </div>
+   
+    <!--California's monthly profit-->
+    <div class="description">
+        This graph shows California's profit graphed monthly for two consecutive years
+    </div>
+    <div class="cont">
+        <div class='tableauPlaceholder' id='viz1639786384545' style='position: relative'>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='highprofitstate&#47;Sheet3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1639786384545');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </div>    
+    
+    <div class="footer" >Copyright &copy; Taylor Stoll | 2021</div>
+</body>
+</html>
