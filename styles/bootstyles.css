@@ -1,29 +1,24 @@
-
-.font{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-}
-
-.bold{
-  font-style: bold;
-}
-
-.blue{
-  color: rgb(9, 9, 255);
-}
-
+/*Overwritten styles*/
 .subtitle{
-font-weight: 300;
-margin-bottom: 0.625rem;
+  font-weight: 300;
+  margin-bottom: 0.625rem;
+  }
+  .bold{
+    font-style: bold;
+  }
+
+  /*Tableau Page Styles*/
+.body{
+  background-color: rgb(157, 148, 165);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  z-index: 1;
+  color: rgb(78, 97, 105);
 }
 
-.center{
+.header{
   text-align: center;
+  color: rgb(47, 56, 59);
 }
-
-.right{
-  justify-content: right;
-}
-
 .menu{
 padding-top: 0.5rem;
 padding-bottom: 0.5rem;
@@ -34,25 +29,35 @@ text-align: right;
 }
 
 .cont{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0 px;
+  
   padding-left: 100px;
-  padding-right: 100px;
+  margin-right: 100px;
+  z-index: 2;
 }
-
+.pls{
+padding-left: 100px;
+  margin-right: 100px;
+}
 .description{
   background-color: rgb(78, 97, 105);
+  padding-top: 4px;
+  padding-bottom: 4px;
   padding-left: 100px;
   padding-right: 100px;
   text-align: center;
   color: rgb(190, 195, 201);
   margin-left: 100px;
   margin-right: 100px;
+  height: 20px;
+  z-index: 3;
+  
 }
 
 .footer{
   text-align: center;
   font-style: bold;
+  padding-top: 5px;
 }
  
   

@@ -9,17 +9,17 @@
     <link href="../styles/bootstyles.css" rel="stylesheet"/>  
     
 </head>
-<body class="font">
+<body class="body">
     <!--Navigation Bar-->
     <!--expands and contracts horizontally as the page is resized-->
     
-    <nav class="navbar navbar-expand-lg navbar-light menu">
-        <div class="container px-4 px-lg-5"></div>
+    <nav class="menu">
+        <div>
            <div>
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../html/about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Tableau</a></li>
+                <ul>
+                    <li class="nav-item"><a  href="../index.html">Home</a></li>
+                    <li class="nav-item"><a  href="../html/about.html">About</a></li>
+                    <li class="nav-item"><a  href="#">Tableau</a></li>
                 </ul>
           </div> 
         </div>
@@ -27,7 +27,7 @@
     
     </div>
     <!--Tableau Dashboard-->
-    <h3 class="center">Tableau Dashboard</h3>
+    <h1 class="header">Tableau Dashboard</h1>
     <!--The Map-->
       <div class="cont">
         <div class='tableauPlaceholder' id='viz1639783466211' style='position: relative'>
@@ -64,37 +64,7 @@
       <div class="description">
           Profit across the United States listed per state and higher profit shown by the darker blue
       </div>
-     <!--California's profit-->
-    </div class="cont">
-        <div class='tableauPlaceholder' id='viz1639786384545' style='position: relative'>
-            <object class='tableauViz'  style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='' />
-                <param name='name' value='highprofitstate&#47;Sheet3' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                <param name='language' value='en-US' />
-            </object>
-        </div>                
-        <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1639786384545');                    
-            var vizElement = divElement.getElementsByTagName('object')[0];                    
-            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
-            var scriptElement = document.createElement('script');                    
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-        </script>
-    </div>    
-    <div class="description">
-        This graph shows California's profit graphed monthly for two consecutive years.
-    </div>
-        <!--another forecast-->
+    <!--another forecast-->
     <div class="cont">
         <div class='tableauPlaceholder' id='viz1639787885468' style='position: relative'>
             <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -151,6 +121,36 @@
     </div>
     <div class="description">
     This graph shows the profit earned per product category in California over time
+    </div>
+    <!--California's monthly profit-->
+    <div class="cont">
+        <div class='tableauPlaceholder' id='viz1639786384545' style='position: relative'>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='highprofitstate&#47;Sheet3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1639786384545');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </div>    
+    <div class="description">
+    This graph shows California's profit graphed monthly for two consecutive years
     </div>
     <div class="footer" >Copyright &copy; Taylor Stoll | 2021</div>
 </body>
