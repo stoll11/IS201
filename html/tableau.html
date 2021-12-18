@@ -1,4 +1,4 @@
-<!--Taylor Stoll 12.17.21-->
+<!--Taylor Stoll 12.18.21-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +16,10 @@
     <nav class="menu">
         <div>
            <div>
-                <ul>
-                    <li class="nav-item"><a  href="../index.html">Home</a></li>
-                    <li class="nav-item"><a  href="../html/about.html">About</a></li>
-                    <li class="nav-item"><a  href="#">Tableau</a></li>
+                <ul class="menu">
+                    <li><a  href="../index.html" class="nav">Home</a></li>
+                    <li><a  href="../html/about.html" class="nav">About</a></li>
+                    <li><a  href="#" class="nav">Tableau</a></li>
                 </ul>
           </div> 
         </div>
@@ -29,7 +29,10 @@
     <!--Tableau Dashboard-->
     <h1 class="header">Tableau Dashboard</h1>
     <!--The Map-->
-      <div class="cont">
+    <div class="description">
+        Profit across the United States listed per state and higher profit shown by the darker blue
+    </div>
+    <div class="cont">
         <div class='tableauPlaceholder' id='viz1639783466211' style='position: relative'>
             <noscript>
                 <a href='#'>
@@ -61,10 +64,11 @@
             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
       </div>
-      <div class="description">
-          Profit across the United States listed per state and higher profit shown by the darker blue
-      </div>
+      
     <!--another forecast-->
+    <div class="description">
+        This is the forecasted sales for the most profitable product category <a href="https://www.statista.com/statistics/197722/annual-office-supplies-and-stationery-store-sales-in-the-us-since-1992/" class="nav">(Office Supplies)</a> in California until November 2015
+    </div>
     <div class="cont">
         <div class='tableauPlaceholder' id='viz1639787885468' style='position: relative'>
             <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -89,10 +93,11 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
     </div> 
-    <div class="description">
-        This is the forecasted sales for the most profitable product category (Office Supplies) in California until November 2015
-    </div>
+    
     <!--product cat-->
+    <div class="description">
+        This graph shows the profit earned per product category in California over time
+    </div>
     <div class="cont">
         <div class='tableauPlaceholder' id='viz1639788101409' style='position: relative'>
             <object class='tableauViz'  style='display:none;'>
@@ -119,10 +124,11 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
     </div>
-    <div class="description">
-    This graph shows the profit earned per product category in California over time
-    </div>
+   
     <!--California's monthly profit-->
+    <div class="description">
+        This graph shows California's profit graphed monthly for two consecutive years
+    </div>
     <div class="cont">
         <div class='tableauPlaceholder' id='viz1639786384545' style='position: relative'>
             <object class='tableauViz'  style='display:none;'>
@@ -149,9 +155,7 @@
             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
     </div>    
-    <div class="description">
-    This graph shows California's profit graphed monthly for two consecutive years
-    </div>
+    
     <div class="footer" >Copyright &copy; Taylor Stoll | 2021</div>
 </body>
 </html>

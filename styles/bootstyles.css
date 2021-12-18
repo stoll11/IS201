@@ -1,66 +1,91 @@
 /*Overwritten styles*/
 .subtitle{
-  font-weight: 300;
-  margin-bottom: 0.625rem;
-  }
-  .bold{
-    font-style: bold;
+font-weight: 300;
+margin-bottom: 0.625rem;
+}
+.bold{
+font-style: bold;
+}
+.italic{
+font-style: italic;
+}
+.fontfam{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;;
+}
+.newcolor{
+  background-color: blueviolet;
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.39);
   }
 
-  /*Tableau Page Styles*/
-.body{
-  background-color: rgb(157, 148, 165);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  z-index: 1;
-  color: rgb(78, 97, 105);
+
+/*Tableau Page Styles*/
+.menu{
+text-align: center;
+font-style: bold;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 150px;
+margin-right: 150px;
+background-color: rgb(78, 97, 105);
+text-decoration: none;
+justify-content: space-between;
+}
+
+.nav{
+color: white;
+text-decoration: none;
 }
 
 .header{
-  text-align: center;
-  color: rgb(47, 56, 59);
+text-align: center;
+color: rgb(47, 56, 59);
 }
-.menu{
-padding-top: 0.5rem;
-padding-bottom: 0.5rem;
-position: relative;
-flex-wrap: wrap;
-justify-content: space-between;
-text-align: right;
+
+.body{
+background-color: rgb(157, 148, 165);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+z-index: 1;
+color: rgb(78, 97, 105);
 }
 
 .cont{
-  padding-top: 0 px;
-  
-  padding-left: 100px;
-  margin-right: 100px;
-  z-index: 2;
+padding-top: 0 px;
+padding-left: 150px;
+margin-right: 150px;
+z-index: 2;
 }
-.pls{
-padding-left: 100px;
-  margin-right: 100px;
-}
+
 .description{
-  background-color: rgb(78, 97, 105);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center;
-  color: rgb(190, 195, 201);
-  margin-left: 100px;
-  margin-right: 100px;
-  height: 20px;
-  z-index: 3;
-  
+background-color: rgb(78, 97, 105);
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 150px;
+padding-right: 150px;
+text-align: center;
+color: rgb(190, 195, 201);
+margin-left: 150px;
+margin-right: 150px;
+z-index: 3;
 }
 
 .footer{
-  text-align: center;
-  font-style: bold;
-  padding-top: 5px;
+text-align: center;
+font-style: bold;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 150px;
+margin-right: 150px;
+background-color: rgb(78, 97, 105);
 }
- 
-  
- 
+
+
+
+
+
 
 
